@@ -6,5 +6,5 @@
 */cache/!index.html
 
 ### smarty ###
-cache/ 
-templates_c/
+application/libraries/smarty/cache/
+application/views/compiled/
