@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,3 +11,12 @@
 				<h1>{$title|default:"TalkSoup"}</h1>
 			</div>
 			<div id="content">
+				{$content}
+			</div>
+			<div id="footer">
+				{$footer|default:""}
+			</div>
+		</div>
+	</body>
+</html>
+
