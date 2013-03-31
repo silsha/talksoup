@@ -4,3 +4,7 @@
 */logs/!index.html
 */cache/*
 */cache/!index.html
+
+### smarty ###
+cache/ 
+templates_c/
