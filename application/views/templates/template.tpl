@@ -19,8 +19,8 @@
 							<h1>{$title|default:"TalkSoup"}</h1>
 						</div>
 						<div class="col8">
-							<h1><a href="/">{HOME}</a></h1>
-							<h1><a href="/talk">{TALK}</a></h1>
+							<h1><a href="/">HOME</a></h1>
+							<h1><a href="/talk">TALK</a></h1>
 						</div>
 					</div>
 				</div>
