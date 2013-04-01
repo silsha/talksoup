@@ -20,7 +20,10 @@ body {
   width: 100%; }
   #header a {
     float: left;
-    padding: 10px; }
+    padding: 0 10px;
+    color: white; }
+    #header a:hover {
+      color: #666666; }
 
 #content {
   margin-top: 60px; }
