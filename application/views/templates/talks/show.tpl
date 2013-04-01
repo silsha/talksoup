@@ -1,0 +1,1 @@
+<h2>{$lang_Welcome}</h2>
