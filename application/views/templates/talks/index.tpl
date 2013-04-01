@@ -8,8 +8,11 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col12">
+			<div class="col8">
 				<div class="box"></div>
+			</div>
+			<div class="col4">
+				<p>{$video.description}</p>
 			</div>
 		</div>
 	</li>
