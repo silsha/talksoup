@@ -29,13 +29,12 @@
 					<div class="row">
 						<div class="col2 sidebar">
 							<ul>
-								<li>Video1</li>
-								<li>Video2</li>
-								<li>Video3</li>
-								<li>Video4</li>
+								{foreach $videos as $video}
+									<li>{$video.title} by {$video.speaker}</li>
+								{/foreach}
 							</ul>
 						</div>
-						<div class="col8">
+						<div class="col8 main">
 							{$content}
 						</div>
 					</div>
