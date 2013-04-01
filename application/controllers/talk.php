@@ -9,14 +9,14 @@ class Talk extends CI_Controller {
 				array(
 					'title'		=> 'Mein toller Vortrag',
 					'lenght'	=> '1234',
-					'speaker'	=> 'silsha' 
-					'description' => 'Famous 1337HaXxOr silsha talking about stuff and foo and more stuff and blah '
+					'speaker'	=> 'silsha',
+					'description' => 'Famous 1337HaXxOr silsha talking about stuff and foo and more stuff and blah'
 					),
 				array(
 					'title'		=> 'Mein tollerer Vortrag',
 					'lenght'	=> '2345',
-					'speaker'	=> 'l3kn' 
-					'description' => 'Famous 1337HaXxOr l3kn talking about stuff and foo and more stuff and blah '
+					'speaker'	=> 'l3kn',
+					'description' => 'Famous 1337HaXxOr l3kn talking about stuff and foo and more stuff and blah'
 					)
 			));
 
