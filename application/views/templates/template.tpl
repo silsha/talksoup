@@ -28,11 +28,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col2 sidebar">
-							<ul>
-								{foreach $videos as $video}
-									<li>{$video.title} by {$video.speaker}</li>
-								{/foreach}
-							</ul>
+							<h2>News:</h2>
+							<p>Papst erzeugt Paradoxon, indem er behauptet fehlbar zu sein</p>
 						</div>
 						<div class="col8 main">
 							{$content}
