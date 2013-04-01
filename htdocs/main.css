@@ -16,7 +16,11 @@ body {
   color: white;
   margin-bottom: 10px;
   position: fixed;
-  top: 0; }
+  top: 0;
+  width: 100%; }
+  #header a {
+    float: left;
+    padding: 10px; }
 
 #content {
   margin-top: 60px; }
