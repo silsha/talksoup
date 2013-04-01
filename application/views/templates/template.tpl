@@ -33,7 +33,9 @@
 							<p>Papst erzeugt Paradoxon, indem er behauptet fehlbar zu sein</p>
 						</div>
 						<div class="col8 main">
-							{$content}
+							<div class="container">
+								{$content}
+							</div>
 						</div>
 					</div>
 				</div>
