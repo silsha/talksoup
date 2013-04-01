@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>{if isset($subpage)}{$subpage} – {/if}{$title|default:"TalkSoup"}</title>
-		<link href="/htdocs/l3_grid.css" rel="stylesheet" type="text/css">
+		<link href="/l3_grid.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="wrapper">
