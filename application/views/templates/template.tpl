@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<title>{if isset($subpage)}{$subpage} – {/if}{$title|default:"TalkSoup"}</title>
 		<link href="/l3_grid.css" rel="stylesheet" type="text/css">
+		<link href="/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<!--[if lt IE 9]>
@@ -14,8 +15,11 @@
 			<div id="header">
 				<div class="container">
 					<div class="row">
-						<div class="col8 offset2">
+						<div class="col2">
 							<h1>{$title|default:"TalkSoup"}</h1>
+						</div>
+						<div class="col8">
+							<h1>Hier könnte ihre Suchleiste stehen</h1>
 						</div>
 					</div>
 				</div>
@@ -23,7 +27,15 @@
 			<div id="content">
 				<div class="container">
 					<div class="row">
-						<div class="col8 offset2">
+						<div class="col2 sidebar">
+							<ul>
+								<li>Video1</li>
+								<li>Video2</li>
+								<li>Video3</li>
+								<li>Video4</li>
+							</ul>
+						</div>
+						<div class="col8">
 							{$content}
 						</div>
 					</div>
@@ -32,7 +44,7 @@
 			<div id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col8 offset2">
+						<div class="col12">
 							{$footer|default:""}
 						</div>
 					</div>

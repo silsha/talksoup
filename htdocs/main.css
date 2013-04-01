@@ -1,0 +1,14 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+  font-size: 13px;
+  color: black;
+  background: white;
+  min-width: 680px; }
+
+#header {
+  height: 60px;
+  background: #dddddd;
+  border-bottom: 1px solid black; }
+
+.sidebar {
+  border-right: 1px solid black; }
