@@ -21,7 +21,8 @@ body {
   #header a {
     float: left;
     padding: 0 10px;
-    color: white; }
+    color: white;
+    text-decoration: none; }
     #header a:hover {
       color: #666666; }
 
@@ -33,3 +34,8 @@ body {
 
 .main {
   background: white; }
+
+.box {
+  width: 100%;
+  min-height: 500px;
+  background: black; }
