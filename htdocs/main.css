@@ -1,14 +1,51 @@
-body {
-  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-  font-size: 13px;
-  color: black;
-  background: white;
-  min-width: 680px; }
+/*
+Syntax error: File to import not found or unreadable: bourbon.
+              Load path: /Volumes/Media/Development/Gits/talksoup
+        on line 1 of htdocs/main.sass
 
-#header {
-  height: 60px;
-  background: #dddddd;
-  border-bottom: 1px solid black; }
+1: @import "bourbon"
+2: 
+3: $color_back_header: #dddddd
+4: $color_back: white
+5: $color_text: black
+6: 
 
-.sidebar {
-  border-right: 1px solid black; }
+Backtrace:
+htdocs/main.sass:1
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/import_node.rb:45:in `import'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:215:in `visit_import'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/tree/root_node.rb:20:in `render'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/engine.rb:315:in `_render'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/engine.rb:262:in `render'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:299:in `block in watch'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
+/Users/leon/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:31:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bourbon.\A               Load path: /Volumes/Media/Development/Gits/talksoup\A         on line 1 of htdocs/main.sass\A \A 1: @import \"bourbon\"\A 2: \A 3: $color_back_header: #dddddd\A 4: $color_back: white\A 5: $color_text: black\A 6: "; }
