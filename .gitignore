@@ -8,3 +8,9 @@
 ### smarty ###
 application/libraries/smarty/cache/
 application/views/compiled/
+
+system/.DS_Store
+
+.DS_Store
+
+*.sassc
